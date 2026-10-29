@@ -1,0 +1,13 @@
+{
+  "profile": "face_goal_v1",
+  "initial_steps": 305000,
+  "source_run": "/home/harivathsha/ai_envs/project/ros2-hybrid-ppo-navigation-main/runs/sac/fresh_20261025_234214",
+  "source_model_sha256": "53cc804001a0febcf9900cf600182d104ca00e35a4004f94148335c7449d11f3",
+  "old_code_hash": "5a9e6871256cdf2fcde3cd04ad8e634f54f5a4ee1d89a8b72c38b42cbd2b7d09",
+  "new_code_hash": "781a825a5a4e19a7a0f75444161d6650932c65cb86603ead72ef2c911d565c8a",
+  "helper_sha256": "769c384ee06606551639bd02562bd5461454f256387c119e9540813ec4244ea8",
+  "reward_changed": false,
+  "sac_settings_changed": false,
+  "random_geometry_changed": false,
+  "note": "Original training used random headings. New CSV logs contain only goal-facing fine-tuning; earlier history is under origin/prior_training."
+}

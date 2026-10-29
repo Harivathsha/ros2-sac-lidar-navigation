@@ -1,0 +1,14 @@
+{
+  "runtime": {
+    "torch": "2.12.0+cu130",
+    "stable_baselines3": "2.7.0",
+    "gymnasium": "1.2.0",
+    "numpy": "2.4.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU"
+  },
+  "contract": "hv_bot_sac_steering22_v1",
+  "code_hash": "5a9e6871256cdf2fcde3cd04ad8e634f54f5a4ee1d89a8b72c38b42cbd2b7d09",
+  "config_hash": "37bba227577b6e6ab8fffabb1eb0086a18b22700549ac84f6b058035b5d57fe2",
+  "fresh": true
+}

@@ -1,0 +1,22 @@
+{
+  "runtime": {
+    "torch": "2.12.0+cu130",
+    "stable_baselines3": "2.7.0",
+    "gymnasium": "1.2.0",
+    "numpy": "2.4.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU"
+  },
+  "contract": "hv_bot_sac_steering22_v1",
+  "code_hash": "f6e5cfb831c8f2e2d508d5013686c7f7c5ed659bfa498e637235e3330572e7d5",
+  "config_hash": "0600e08165531252f51e4f134fbf9fec6ea42e12dd2301864a76391b81ceac1e",
+  "fresh": false,
+  "initial_heading_policy": "face_goal_v1",
+  "dense_training_policy": {
+    "profile": "dense_family_85_passage_15_v1",
+    "dense_fraction": 0.85,
+    "passage_fraction": 0.15,
+    "training_seed_source": "saved_episode_counter",
+    "final_seed_base": 360000
+  }
+}

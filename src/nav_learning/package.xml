@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav_learning</name><version>1.0.0</version>
+  <description>SAC steering navigation for the original Jazzy square arena</description>
+  <maintainer email="harivathsharamesh@gmail.com">harivathsha</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend><depend>geometry_msgs</depend><depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend><depend>ros_gz_interfaces</depend><depend>rosgraph_msgs</depend>
+  <exec_depend>python3-numpy</exec_depend><exec_depend>python3-yaml</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>ament_index_python</exec_depend><exec_depend>python3-pandas</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

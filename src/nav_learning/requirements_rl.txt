@@ -1,0 +1,9 @@
+# PyTorch is intentionally absent. install_sac_dependencies.py preserves the
+# CUDA-enabled build that is already installed in the robotics_ai environment.
+stable-baselines3==2.7.0
+gymnasium==1.2.0
+numpy>=1.26,<3
+PyYAML>=6.0
+matplotlib>=3.8
+pandas>=2.0
+pytest>=8.0

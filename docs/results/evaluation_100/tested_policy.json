@@ -1,0 +1,5 @@
+{
+  "sha256": "422afbcf3ef7dd47149cf0bf3415022a2b0704dc5eae0496931c3e535d2fe27b",
+  "source": "/home/harivathsha/ai_envs/project/ros2-hybrid-ppo-navigation-main/runs/sac/goal_facing_20261028_221122_000773/best/stage_04/model.zip",
+  "steps": 540000
+}

@@ -1,0 +1,25 @@
+{
+  "removed": [
+    "runs/sac/goal_facing_20261028_221122_000773",
+    "runs/sac/latest_run_path.txt",
+    "tools/sac_goal_facing.py",
+    "tools/sac_installation.json",
+    "log",
+    "src/nav_learning/nav_learning/__pycache__"
+  ],
+  "failed": [],
+  "retained": [
+    "models/sac_dense_540k",
+    "docs",
+    "src",
+    "build",
+    "install",
+    "README.md",
+    "LICENSE",
+    "tools/install_sac_dependencies.py",
+    "tools/plot_sac_release.py",
+    "tools/prepare_sac_release.py"
+  ],
+  "old_replay_removed": true,
+  "note": "Only the named historical run was removed; any separate recording/fresh run is retained."
+}

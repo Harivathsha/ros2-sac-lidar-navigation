@@ -1,0 +1,39 @@
+{
+  "training_budget_steps": 600000,
+  "evaluated_checkpoint_steps": 540000,
+  "goal_facing_started_at_steps": 305000,
+  "dense_started_at_steps": 337304,
+  "recorded_training_episodes": 2827,
+  "training_coverage": {
+    "training_episodes.csv": {
+      "rows": 2827,
+      "first_steps": 222,
+      "last_steps": 599869
+    },
+    "training_updates.csv": {
+      "rows": 127,
+      "first_steps": 5000,
+      "last_steps": 600000
+    },
+    "validation_history.csv": {
+      "rows": 24,
+      "first_steps": 10000,
+      "last_steps": 590000
+    }
+  },
+  "wall_clock_time_available": false,
+  "initial_heading_policy": "face_goal_v1",
+  "code_hash": "f6e5cfb831c8f2e2d508d5013686c7f7c5ed659bfa498e637235e3330572e7d5",
+  "config_hash": "0600e08165531252f51e4f134fbf9fec6ea42e12dd2301864a76391b81ceac1e",
+  "model_sha256": "422afbcf3ef7dd47149cf0bf3415022a2b0704dc5eae0496931c3e535d2fe27b",
+  "evaluation_seeds": [
+    360000,
+    360099
+  ],
+  "success": 91,
+  "collision": 9,
+  "timeout": 0,
+  "created_at_utc": "2026-10-29T11:17:48.826650+00:00",
+  "fresh_training_note": "Current defaults use goal-facing resets from step zero. This differs from the historical run's reset/sampling sequence.",
+  "model_selection": "Internal validation selected the 540k best policy before the 100-case final evaluation."
+}

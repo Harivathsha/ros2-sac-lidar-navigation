@@ -1,0 +1,55 @@
+contract: hv_bot_sac_steering22_v1
+seed: 42
+reset_seed_base: 10000
+torch_threads: 1
+checkpoint_every_steps: 5000
+environment:
+  fixed_speed_mps: 0.22
+  max_angular_speed_radps: 1.2
+  gamma: 0.998
+  detour_clearance_m: 0.25
+  potential_scale: 1.0
+  success_reward: 20.0
+  collision_penalty: 20.0
+  step_penalty: 0.01
+  near_distance_m: 0.28
+  near_penalty: 0.05
+  front_distance_m: 0.6
+  front_penalty: 0.05
+  stuck_penalty: 0.05
+sac:
+  learning_rate: 0.0003
+  buffer_size: 200000
+  learning_starts: 2000
+  batch_size: 256
+  tau: 0.005
+  gamma: 0.998
+  train_freq: 1
+  gradient_steps: 1
+  ent_coef: auto_0.1
+  target_entropy: auto
+  policy_kwargs:
+    net_arch:
+    - 256
+    - 256
+curriculum:
+  minimum_steps:
+  - 10000
+  - 15000
+  - 20000
+  - 30000
+  - 0
+  promotion_success_rate: 0.8
+evaluation:
+  every_steps: 10000
+  dense_every_steps: 50000
+  episodes: 12
+  seed_base: 520000
+  banks: 2
+initial_heading_policy: face_goal_v1
+dense_training_policy:
+  profile: dense_family_85_passage_15_v1
+  dense_fraction: 0.85
+  passage_fraction: 0.15
+  training_seed_source: saved_episode_counter
+  final_seed_base: 360000

@@ -1,0 +1,64 @@
+{
+  "sources": [
+    {
+      "path": "origin/prior_training/training_episodes.csv",
+      "sha256": "9afa12e451792be9864221a93184a4314eddbcc5cebe71cf07e23ae5ea1af603",
+      "rows": 1526,
+      "first_steps": 222,
+      "last_steps": 304712
+    },
+    {
+      "path": "training_episodes.csv",
+      "sha256": "90bcdb81f1662d6a710b3abce865fa8b7ca9aec092c7dd8567a98c3c8bd8cc32",
+      "rows": 1301,
+      "first_steps": 305157,
+      "last_steps": 599869
+    },
+    {
+      "path": "origin/prior_training/training_updates.csv",
+      "sha256": "df4ac11dd631dd449f381704e7df5623ae42b9b04c809769b7cfb7dbcd408315",
+      "rows": 66,
+      "first_steps": 5000,
+      "last_steps": 305000
+    },
+    {
+      "path": "training_updates.csv",
+      "sha256": "a737017899c7ce2f9207488a746e7abaff6529914340b667e4219e82d546f9a7",
+      "rows": 61,
+      "first_steps": 310000,
+      "last_steps": 600000
+    },
+    {
+      "path": "origin/prior_training/validation_history.csv",
+      "sha256": "4b3251f950c08d128d333e53a5926fb70ec53279fdac0c18593e6842de83ee0f",
+      "rows": 19,
+      "first_steps": 10000,
+      "last_steps": 305000
+    },
+    {
+      "path": "validation_history.csv",
+      "sha256": "22f6afa63d266e3be7ceded641201f4f65b3e658cc57734a242656a44a9faca9",
+      "rows": 5,
+      "first_steps": 390000,
+      "last_steps": 590000
+    }
+  ],
+  "coverage": {
+    "training_episodes.csv": {
+      "rows": 2827,
+      "first_steps": 222,
+      "last_steps": 599869
+    },
+    "training_updates.csv": {
+      "rows": 127,
+      "first_steps": 5000,
+      "last_steps": 600000
+    },
+    "validation_history.csv": {
+      "rows": 24,
+      "first_steps": 10000,
+      "last_steps": 590000
+    }
+  },
+  "note": "Only recorded rows are retained; no missing training data or wall time is reconstructed."
+}

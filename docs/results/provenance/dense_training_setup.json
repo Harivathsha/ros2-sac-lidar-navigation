@@ -1,0 +1,20 @@
+{
+  "profile": "dense_family_85_passage_15_v1",
+  "started_at_steps": 337304,
+  "model_sha256": "4e61dfd21535c2f561a6c073dadd5100362160a8a8557c11a5c0ca25125a1b89",
+  "preserved_checkpoint": "milestones/before_dense_000337304_20261029_000202_683361",
+  "helper_sha256": "04b708d1ee9022de0d75f648225d8df22e5947e58fb67f20290bdeee8659bfc5",
+  "old_code_hash": "781a825a5a4e19a7a0f75444161d6650932c65cb86603ead72ef2c911d565c8a",
+  "new_code_hash": "f6e5cfb831c8f2e2d508d5013686c7f7c5ed659bfa498e637235e3330572e7d5",
+  "reward_changed": false,
+  "dynamics_changed": false,
+  "replay_preserved": true,
+  "evaluation_geometry_changed": false,
+  "training_mixture": {
+    "profile": "dense_family_85_passage_15_v1",
+    "dense_fraction": 0.85,
+    "passage_fraction": 0.15,
+    "training_seed_source": "saved_episode_counter",
+    "final_seed_base": 360000
+  }
+}

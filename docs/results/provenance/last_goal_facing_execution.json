@@ -1,0 +1,10 @@
+{
+  "saved_steps": 600000,
+  "target_steps": 600000,
+  "stopped_before_target": false,
+  "evaluation_directory": "/home/harivathsha/ai_envs/project/ros2-hybrid-ppo-navigation-main/runs/sac/goal_facing_20261028_221122_000773/evaluation_goal_facing_20261029_152727_958096",
+  "evaluation_complete": true,
+  "initial_heading_policy": "face_goal_v1",
+  "evaluated_checkpoint_steps": 540000,
+  "selected_checkpoint": "best"
+}
